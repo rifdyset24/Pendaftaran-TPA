@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran TPA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <div class="container">
+
+    <div class="title">
+      <h1>Formulir Pendaftaran TPA</h1>
+      <p>Silakan isi data dengan lengkap dan benar</p>
+    </div>
+
+    <!-- DATA SISWA -->
+    <div class="section">
+      <h2>Data Siswa</h2>
+
+      <div class="row">
+        <div class="form-group">
+          <label>Nama Lengkap</label>
+          <input type="text" placeholder="Masukkan nama lengkap">
+        </div>
+
+        <div class="form-group">
+          <label>Nama Panggilan</label>
+          <input type="text" placeholder="Masukkan nama panggilan">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group">
+          <label>Tempat Lahir</label>
+          <input type="text">
+        </div>
+
+        <div class="form-group">
+          <label>Tanggal Lahir</label>
+          <input type="date">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Alamat</label>
+        <textarea placeholder="Masukkan alamat lengkap"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Asal Sekolah</label>
+        <input type="text">
+      </div>
+    </div>
+
+    <!-- DATA ORANG TUA -->
+    <div class="section">
+      <h2>Data Orang Tua</h2>
+
+      <div class="row">
+        <div class="form-group">
+          <label>Nama Ayah</label>
+          <input type="text">
+        </div>
+
+        <div class="form-group">
+          <label>No HP Ayah</label>
+          <input type="tel">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group">
+          <label>Nama Ibu</label>
+          <input type="text">
+        </div>
+
+        <div class="form-group">
+          <label>No HP Ibu</label>
+          <input type="tel">
+        </div>
+      </div>
+    </div>
+
+    <!-- PILIH KELAS -->
+    <div class="section">
+      <h2>Pilih Kelas</h2>
+
+      <div class="kelas-container">
+
+        <label class="kelas-card">
+          <input type="radio" name="kelas">
+          Kelas Siang
+        </label>
+
+        <label class="kelas-card">
+          <input type="radio" name="kelas">
+          Kelas Sore
+        </label>
+
+        <label class="kelas-card">
+          <input type="radio" name="kelas">
+          Kelas Malam
+        </label>
+
+      </div>
+    </div>
+
+    <!-- UPLOAD DOKUMEN -->
+    <div class="section">
+      <h2>Upload Dokumen</h2>
+
+      <div class="upload-box">
+        <p>Upload Kartu Keluarga / Dokumen Pendukung</p>
+
+        <input type="file", accept="image/*", capture="environment">
+      </div>
+    </div>
+
+    <button class="btn">
+      Daftar Sekarang
+    </button>
+
+  </div>
+
+    
+</body>
+</html>
